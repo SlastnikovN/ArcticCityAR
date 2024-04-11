@@ -1,0 +1,139 @@
+/* Настройка шрифта */
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("https://cdn.glitch.global/8a9619f7-6855-49e4-8aae-e830518f9958/Sreda.otf?v=1690300613023")
+    format("woff2");
+}
+
+body {
+  
+  font-family: "MyCustomFont", sans-serif;
+}
+/* Настройка кнопок */
+.btnLeft {
+  height: 15%;
+  justify-content: center;
+  position: fixed;
+  top: 86%;
+  margin: 5px;
+  left: 0;
+  right: 1;
+}
+.btnRight {
+  height: 5%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0%;
+  margin: 20px;
+  left: 1;
+  right: 0;
+}
+/* Настройка меню */
+/*.menuRight {
+   display: none;
+  position: absolute;
+  bottom: 60px;
+  right: 12px;
+  width: 170px;
+  height: 50px;
+  padding: 10px;
+}*/
+
+
+
+.menuRight {
+  
+  position: fixed;
+  top: 600px;
+  right: 10px; /* Initial position */
+  width: 170px;
+  height: 50px;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  transform: translateX(100%); /* Скрытый по умолчанию */
+  transition: transform 0.5s ease; /* Анимация перемещения */
+}
+
+
+
+
+
+
+/* Настройка блока Историческая справка */
+.history {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  width: 415px;
+  height: 722px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.history h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.historyText {
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+
+.scrollable {
+  max-height: 650px;
+  overflow-y: auto;
+}
+.deleteHistory {
+  height: 7%;
+  position: absolute;
+  justify-content: center;
+  position: fixed;
+  bottom: 0%;
+  margin: 20px;
+  left: 1;
+  right: 0;
+}
+
+.soundHistory{
+  height: 7%;
+  position: absolute;
+  justify-content: center;
+  position: fixed;
+  bottom: 0%;
+  margin: 20px;
+  left: 0;
+  right: 1;
+}
+
+/* Настройка отображения текста*/
+.main {
+  position: absolute;
+  width: 420px;
+  height: 100px;
+  font-size: 16px;
+  color: white;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+#historyText1 {
+  display: none;
+}
+
+#historyText2 {
+  display: none;
+}
+
+#historyText3 {
+  display: none;
+}
