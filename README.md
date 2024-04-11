@@ -13,7 +13,13 @@ Developer - https://github.com/SlastnikovN
 Developer - https://github.com/VladiSlaveZamir
 Urban analyst 
 3d artist  
- 
+
+Technology Stack:
+- HTML
+- CSS
+- Java Script
+- Glitch
+- SQLLite
 
 Realization:
 
