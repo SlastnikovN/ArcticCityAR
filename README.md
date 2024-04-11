@@ -9,10 +9,10 @@ Description of the problems solved by our project:
 - Providing an inspection and study of buildings in detail
 
 Participants:
-Developer - 
-Developer - 
-Urban analyst - 
-3d artist - 
+Developer - https://github.com/SlastnikovN
+Developer - https://github.com/VladiSlaveZamir
+Urban analyst 
+3d artist  
  
 
 Realization:
