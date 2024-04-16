@@ -23,4 +23,8 @@ Technology Stack:
 
 Realization:
 
-A video of our MVP
+
+
+https://github.com/SlastnikovN/ArcticCityAR/assets/106885591/6f89b1a8-3c6b-464d-8e5e-03159c94c9bb
+
+
